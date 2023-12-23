@@ -1,0 +1,57 @@
+body{
+  font-family: "Merriweather", serif;
+  background-color: #FBE6C2;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+.top-container {
+    background-color :#F48B29;
+    height: 100vh;
+    padding-top: 80px;
+  }
+
+.middle-container {
+  background-color: #FBE6C2;
+    margin: 100px 0;
+  }
+
+.bottom-container{
+  background-color: #F48B29;
+  height: 20vh;
+}
+
+.skills-container{
+  background-color: #F48B29;
+}
+
+.dotted-hr{
+    border: dotted #000 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+
+h1{
+  font-family: 'Philosopher', sans-serif;
+  font-size: 6rem;
+ 
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  line-height: 2;
+  
+}
+@media screen and (min-width: 1025px) {
+
+  .about-paragraph{
+    height: 10vh;
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+}
